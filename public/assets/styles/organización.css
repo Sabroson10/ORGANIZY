@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    padding: 20px;
+}
+
+.header {
+    text-align: center;
+    background-color: #d9f1f1;
+    padding: 20px 0;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.top-bar h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.back-button {
+    text-decoration: none;
+    color: #000;
+    background-color: #b0e0e6;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.service-overview {
+    text-align: center;
+}
+
+.service-main-button {
+    display: block;
+    margin: 0 auto;
+    background-color: #b0e0e6;
+    border: none;
+    padding: 15px;
+    border-radius: 25px;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.service-options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.service-option {
+    background-color: #ddd;
+    border: none;
+    padding: 10px;
+    border-radius: 25px;
+    width: 80%;
+    text-align: left;
+    margin: 5px 0;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.service-option:first-of-type {
+    background-color: #b0e0e6;
+}
+
+.before-after {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.before-after h3 {
+    margin: 10px 0;
+}
+
+.before-after img {
+    width: 45%;
+    margin: 0 2.5%;
+}
+
+.reviews-button {
+    display: block;
+    text-align: center;
+    margin: 20px 0;
+    text-decoration: none;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+footer {
+    width: 100%;
+    background-color: #e0f7fa;
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer nav ul li {
+    font-size: 14px;
+    color: #333;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+
+.footer-icons span {
+    font-size: 20px;
+    color: #333;
+}

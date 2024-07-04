@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios</title>
+    <link rel="stylesheet" href="../public/assets/styles/styleServicio.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Servicios</h1>
+        </div>
+        <div class="services">
+            <a href="organización.html" class="service-button">
+                <span class="icon">🧹</span> Organization
+            </a>
+            <a href="renovación.html" class="service-button">
+                <span class="icon">🛠️</span> Renovation
+            </a>
+            <a href="limpieza.html" class="service-button">
+                <span class="icon">🧼</span> Cleaning
+            </a>
+            <a href="optimizacion.html" class="service-button">
+                <span class="icon">⚙️</span> Optimization
+            </a>
+        </div>
+        <a href="reseñas.html" class="reviews-button">
+            (+) Reseñas
+        </a>
+    </div>
+        <div class="service-detail" id="organization-detail" style="display: none;">
+            <h2>Organization</h2>
+            <p>Nuestro servicio de organización te ayuda a crear un espacio más ordenado y eficiente. Ya sea en el hogar o en la oficina, nuestros expertos se asegurarán de que todo esté en su lugar.</p>
+            <h3>Beneficios:</h3>
+            <ul>
+                <li>Reducción del estrés</li>
+                <li>Mayor eficiencia</li>
+                <li>Mejora en la estética del espacio</li>
+                <li>Más tiempo libre</li>
+            </ul>
+            <h3>Solicita este servicio:</h3>
+            <form action="#" method="post">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+                <br>
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required>
+                <br>
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <br>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('organization-link').addEventListener('click', function(event) {
+            event.preventDefault();
+            document.getElementById('organization-detail').style.display = 'block';
+        });
+    </script>
+</body>
+</html>
